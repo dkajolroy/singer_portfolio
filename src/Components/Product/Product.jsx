@@ -9,20 +9,18 @@ function Product() {
             <h2 className="section__title">Product</h2>
             <div className="divider"></div>
 
-
-
             <div className="info__action__prod">
                 <div className="content_prod">
                     <div className="content__ui__prod">
                         <h3>Your Music Partner</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptate?</p>
                     </div>
-                    <div className="product__info_g">
-                        <div className='col'>
+                    <div className="row product__info_g">
+                        <div className='col-sm-6'>
                             <input type="email" placeholder='Enter Your Email' />
                             <button type="submit"> <span><ImYoutube /></span>Subscribe</button>
                         </div>
-                        <div className="col">
+                        <div className="col-sm-6">
                             <ul>
                                 <li><a href="/" target="_blank">
                                     <span><BsYoutube /></span> Youtube</a></li>

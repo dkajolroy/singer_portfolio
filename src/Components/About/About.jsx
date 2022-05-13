@@ -11,8 +11,8 @@ function Testimonial() {
                 <h2 className="section__title">About</h2>
                 <div className="divider"></div>
 
-                <div className="about__info__ui">
-                    <div className="about_item">
+                <div className="row about__info__ui">
+                    <div className="col-md-6 about_item">
                         <h4>Navar Stop Listening !!</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reiciendis sit mollitia tenetur suscipit maiores aliquam placeat inventore. Magni, impedit!</p>
                         <h4>What I do?</h4>
@@ -27,7 +27,7 @@ function Testimonial() {
                             </ul>
                         </div>
                     </div>
-                    <div className="about_item">
+                    <div className="col-md-6 about_item_image">
                         <img src={guitar_man} alt="me" />
                     </div>
                 </div>

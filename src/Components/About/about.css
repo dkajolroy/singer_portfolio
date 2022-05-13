@@ -3,13 +3,7 @@
 }
 
 .about__info__ui {
-    display: flex;
-    justify-content: space-evenly;
     color: #fff;
-}
-
-.about_item {
-    flex: 1;
 }
 
 .about_item h4 {
@@ -24,7 +18,7 @@
     margin-top: 5px;
 }
 
-.about_item img {
+.about_item_image img {
     width: 100%;
 }
 
@@ -93,4 +87,34 @@
 
 .about_item .action__groupe ul li:hover svg {
     transform: scale(1.5) rotate(360deg);
+}
+
+
+/* Responsive */
+@media (max-width:992px) {
+    .about_item_image {
+        display: flex;
+        align-items: center;
+    }
+
+    .about_item .action__groupe {
+        margin-top: 40px;
+        display: table;
+        width: 100%;
+    }
+
+
+
+    .about_item ul {
+        margin: 20px 0;
+        justify-content: space-evenly;
+    }
+
+}
+
+@media (max-width:380px) {
+    .about_item button {
+        width: 100%;
+        margin: auto;
+    }
 }

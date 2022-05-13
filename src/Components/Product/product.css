@@ -1,9 +1,9 @@
 .product__section__ui {
     background-color: #100F0F;
-    height: 90vh;
 }
 
 .info__action__prod {
+    margin: 50px 0;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -22,14 +22,9 @@
 
 .product__info_g {
     margin: auto;
-    display: flex;
-    justify-content: center;
 }
 
-.product__info_g .col {
-    flex: 1;
-    overflow: hidden;
-}
+
 
 .product__info_g input {
     width: 100%;
@@ -107,4 +102,23 @@
 .product__info_g li:hover a {
     color: yellowgreen;
     transform: scale(1.3);
+}
+
+@media (max-width:768px) {
+    .content__ui__prod {
+        text-align: center;
+    }
+
+    .product__info_g button {
+        margin: auto;
+    }
+
+    .product__info_g ul {
+        margin-top: 20px;
+    }
+
+    .info__action__prod .content__ui__prod p {
+        width: 90%;
+        margin: auto;
+    }
 }

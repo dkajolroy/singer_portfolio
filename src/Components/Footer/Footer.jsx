@@ -3,7 +3,7 @@ import './footer.css'
 
 function Footer() {
     return (
-        <div className='footer__section__ui section'>
+        <div className='footer__section__ui'>
 
             <div className="container">
                 <div className="row">
@@ -44,11 +44,11 @@ function Footer() {
                     </div>
                 </div>
                 <div className="copy__right">
-                    <div className="row">
+                    <div className="row text-center">
                         <div className="col-sm-6 ">
                             <span>www.example.com</span>
                         </div>
-                        <div className="col-sm-6 text-end">
+                        <div className="col-sm-6 ">
                             <span>Copyright all right Reserved</span>
                         </div>
                     </div>

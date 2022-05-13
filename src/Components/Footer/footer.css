@@ -1,9 +1,24 @@
 .footer__section__ui {
     background-color: #111111;
     color: #fff;
+    padding-top: 80px;
+    padding-bottom: 20px;
 }
 
 .footer__section__ui ul {
     list-style: none;
     padding: 0;
+    color: rgb(169, 173, 176);
+}
+
+.footer__section__ui .copy__right {
+    font-size: 14px;
+    font-weight: 300;
+    color: gray;
+}
+
+@media (max-width:992px) {
+    .footer__section__ui li {
+        text-align: center;
+    }
 }
