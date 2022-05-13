@@ -22,6 +22,7 @@
 
 .product__info_g {
     margin: auto;
+    align-items: center;
 }
 
 
@@ -32,7 +33,7 @@
     border: none;
     padding: 10px 20px;
     font-size: 16px;
-    margin: 5px 0;
+    margin: 10px 0;
     background-color: rgb(68, 64, 75);
 }
 
@@ -85,9 +86,8 @@
     font-size: 20px;
     text-decoration: none;
     padding: 10px;
-    display: block;
+    display: table;
     transform-origin: left;
-    display: flex;
     align-items: center;
     transition: .3s;
 }
@@ -96,7 +96,6 @@
     margin-right: 5px;
     font-size: 22px;
     margin-bottom: 5px;
-
 }
 
 .product__info_g li:hover a {

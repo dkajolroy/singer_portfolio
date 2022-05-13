@@ -6,8 +6,11 @@ import Pricing from './Components/Pricing/Pricing'
 import Product from './Components/Product/Product'
 import Footer from './Components/Footer/Footer'
 import About from './Components/About/About'
+import AOS from 'aos/dist/aos'
 
 function App() {
+  AOS.init();
+
   return (
     <>
       <NavBars />

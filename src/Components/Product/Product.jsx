@@ -6,21 +6,21 @@ import { BsApple, BsSpotify, BsYoutube } from 'react-icons/bs'
 function Product() {
     return (
         <div className='product__section__ui section' id='product'>
-            <h2 className="section__title">Product</h2>
+            <h2 className="section__title" >Product</h2>
             <div className="divider"></div>
 
             <div className="info__action__prod">
-                <div className="content_prod">
-                    <div className="content__ui__prod">
-                        <h3>Your Music Partner</h3>
+                <div className="content_prod container">
+                    <div data-aos="fade-right" className="content__ui__prod">
+                        <h3 >Your Music Partner</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptate?</p>
                     </div>
                     <div className="row product__info_g">
-                        <div className='col-sm-6'>
+                        <div data-aos="fade-right" className='col-sm-6'>
                             <input type="email" placeholder='Enter Your Email' />
                             <button type="submit"> <span><ImYoutube /></span>Subscribe</button>
                         </div>
-                        <div className="col-sm-6">
+                        <div data-aos="fade-up" className="col-sm-6">
                             <ul>
                                 <li><a href="/" target="_blank">
                                     <span><BsYoutube /></span> Youtube</a></li>

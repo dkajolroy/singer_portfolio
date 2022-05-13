@@ -77,6 +77,7 @@
 
 .nav_bar__main .bars {
     display: none;
+    color: rgb(197, 197, 197);
 }
 
 .nav_bar__main .brand__icon a {

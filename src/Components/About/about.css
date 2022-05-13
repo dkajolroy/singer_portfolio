@@ -9,6 +9,7 @@
 .about_item h4 {
     font-size: 30px;
     margin-top: 30px;
+    color: yellowgreen;
 
 }
 
@@ -28,7 +29,7 @@
     text-align: left;
     color: #fff;
     transition: .3s;
-    border: 1px solid yellow;
+    border: 1px solid yellowgreen;
     padding: 10px 30px 10px 10px;
     font-size: 20px;
     z-index: 1;

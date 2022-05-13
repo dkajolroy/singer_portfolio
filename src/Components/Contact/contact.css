@@ -47,7 +47,7 @@
     color: #fff;
     border: none;
     padding: 10px 20px;
-    margin: 10px 0;
+    margin-bottom: 10px;
     border-bottom: 1px solid #fff;
     font-size: 20px;
 }
@@ -82,9 +82,9 @@
 
 .contact__ui .contact_us ul li {
     display: flex;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
-    margin: 10px 0;
+    margin: 24px 0;
     font-style: italic;
 }
 

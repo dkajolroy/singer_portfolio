@@ -7,13 +7,13 @@ import { FaRegAddressCard } from 'react-icons/fa'
 function GetInTouch() {
     return (
         <div className='contact__section__ui section' id='contact'>
-            <h2 className="section__title">contact</h2>
+            <h2 className="section__title" >contact</h2>
             <div className="divider"></div>
 
             <div className="contact__ui">
                 <div className="container">
                     <div className="row mt-5">
-                        <div className="col-md-6 get_in_touch">
+                        <div data-aos="fade-up" className="col-md-6 get_in_touch">
                             <h2>Get In Touch</h2>
                             <form>
                                 <input type="text" placeholder='Enter Your Email' />
@@ -21,7 +21,7 @@ function GetInTouch() {
                                 <button type="submit">Submit</button>
                             </form>
                         </div>
-                        <div className="col-md-6 contact_us">
+                        <div data-aos="fade-up" className="col-md-6 contact_us">
                             <h2>Contact Info</h2>
                             <ul>
                                 <li><span>

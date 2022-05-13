@@ -9,15 +9,15 @@ function Pricing() {
             <div className="container">
                 <h2 className="section__title">Pricing</h2>
                 <div className="divider"></div>
-                <h5>Pick Your Best Option</h5>
-                <p className='heading_para'>Listen without limit phone, speaker or any device more suitable you</p>
+                <h5 data-aos="fade-up">Pick Your Best Option</h5>
+                <p data-aos="fade-up" className='heading_para'>Listen without limit phone, speaker or any device more suitable you</p>
 
                 <div className="pricing__item__groupe">
                     <div className="row gx-0">
-                        <div className="col-lg-3 col-md-6 mt-3">
+                        <div data-aos="fade-up" className="col-lg-3 col-md-6 mt-3">
                             <Tilt className="pricing__item">
                                 <h3>Individual</h3>
-                                <p>$14.99/month after offer period<i className="mdi mdi-periodic-table:"></i></p>
+                                <p >$14.99/month after offer period<i className="mdi mdi-periodic-table:"></i></p>
                                 <span>1 Account</span>
                                 <ul>
                                     <li><span><FiHeadphones /></span>Listen to music ad-free</li>
@@ -29,7 +29,7 @@ function Pricing() {
                                 </div>
                             </Tilt>
                         </div>
-                        <div className="col-lg-3 col-md-6 mt-3">
+                        <div data-aos="fade-up" className="col-lg-3 col-md-6 mt-3">
                             <Tilt className="pricing__item">
                                 <h3>Due</h3>
                                 <p>$18.39/month after offer period<i className="mdi mdi-periodic-table:"></i></p>
@@ -44,7 +44,7 @@ function Pricing() {
                                 </div>
                             </Tilt>
                         </div>
-                        <div className="col-lg-3 col-md-6 mt-3">
+                        <div data-aos="fade-up" className="col-lg-3 col-md-6 mt-3">
                             <Tilt className="pricing__item">
                                 <h3>Family</h3>
                                 <p>$22.88/month after offer period<i className="mdi mdi-periodic-table:"></i></p>
@@ -61,7 +61,7 @@ function Pricing() {
                                 </div>
                             </Tilt>
                         </div>
-                        <div className="col-lg-3 col-md-6 mt-3">
+                        <div data-aos="fade-up" className="col-lg-3 col-md-6 mt-3">
                             <Tilt className="pricing__item">
                                 <h3>Student</h3>
                                 <p>$7.49/month after offer period<i className="mdi mdi-periodic-table:"></i></p>
