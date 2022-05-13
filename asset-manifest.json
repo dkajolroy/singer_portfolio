@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/singer_portfolio/static/css/main.40abbd10.css",
-    "main.js": "/singer_portfolio/static/js/main.0a6b72e0.js",
+    "main.css": "/singer_portfolio/static/css/main.904438b4.css",
+    "main.js": "/singer_portfolio/static/js/main.be865596.js",
     "static/media/map_background.png": "/singer_portfolio/static/media/map_background.2902137e04bfec0734a4.png",
     "static/media/guitar_man_banar.jpg": "/singer_portfolio/static/media/guitar_man_banar.40586cb71272d96ef779.jpg",
     "static/media/guitar_man.png": "/singer_portfolio/static/media/guitar_man.a6478db09f86a8b16e27.png",
     "index.html": "/singer_portfolio/index.html",
-    "main.40abbd10.css.map": "/singer_portfolio/static/css/main.40abbd10.css.map",
-    "main.0a6b72e0.js.map": "/singer_portfolio/static/js/main.0a6b72e0.js.map"
+    "main.904438b4.css.map": "/singer_portfolio/static/css/main.904438b4.css.map",
+    "main.be865596.js.map": "/singer_portfolio/static/js/main.be865596.js.map"
   },
   "entrypoints": [
-    "static/css/main.40abbd10.css",
-    "static/js/main.0a6b72e0.js"
+    "static/css/main.904438b4.css",
+    "static/js/main.be865596.js"
   ]
 }
