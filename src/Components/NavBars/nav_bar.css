@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav_bar__main {
+    display: flex;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2000;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    transition: .3s;
+}
+
+.nav_bar__main.active a {
+    padding: 10px 15px;
+}
+
+.nav_bar__main.active {
+    background-color: black;
+}
+
+.nav_bar__main ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.nav_bar__main a {
+    position: relative;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    color: white !important;
+    padding: 20px 15px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+
+.nav_bar__main ul a::after {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: yellow;
+    height: 1px;
+    transition: .2s;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    transform: scale(0);
+}
+
+.nav_bar__main ul a:hover::after {
+    transform: scale(1);
+}
+
+.nav_bar__main ul .active::after {
+    transform: scale(1);
+}
+
+.nav_bar__main .brand__icon a {
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+}
+
+.nav_bar__main .brand__icon a img {
+    width: 50px;
+}

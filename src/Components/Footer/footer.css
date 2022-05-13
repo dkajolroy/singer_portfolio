@@ -1,0 +1,9 @@
+.footer__section__ui {
+    background-color: #111111;
+    color: #fff;
+}
+
+.footer__section__ui ul {
+    list-style: none;
+    padding: 0;
+}

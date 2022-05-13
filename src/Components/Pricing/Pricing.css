@@ -1,0 +1,97 @@
+.pricing__section__ui {
+    background: #252327;
+}
+
+.pricing__section__ui h5 {
+    text-align: center;
+    color: yellowgreen;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.pricing__section__ui .heading_para {
+    text-align: center;
+    font-size: 16px;
+    color: lightslategrey;
+    font-weight: normal;
+    width: 35%;
+    margin: auto;
+}
+
+
+.pricing__item__groupe {
+    color: #fff;
+}
+
+
+
+.pricing__item {
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    height: 100%;
+    margin: 0 10px;
+    box-shadow: inset 0px 0px 8px;
+    background-color: #1a1a1c;
+}
+
+.pricing__item h3 {
+    color: yellow;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+.pricing__item p {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.pricing__item span {
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.pricing__item ul {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.pricing__item li {
+    margin: 10px 0;
+    display: flex;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    color: rgb(173, 173, 173);
+}
+
+.pricing__item li span {
+    font-size: 20px;
+    color: rgb(186, 186, 186);
+    margin-right: 5px;
+}
+
+.pricing__item .action {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pricing__item .action button {
+    background: transparent;
+    border: 1px solid yellowgreen;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.pricing__item .action button:hover {
+    background-color: black;
+}

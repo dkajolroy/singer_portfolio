@@ -1,0 +1,94 @@
+.contact__section__ui {
+    background-image: url("../../Assets//map_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+}
+
+.contact__ui::after {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #242c30af;
+    z-index: -1;
+}
+
+.contact__ui .user_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__ui .user_info h2 {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.contact__ui .user_info .get_in_touch,
+.contact__ui .user_info .contact_us {
+    flex: 1;
+    overflow: hidden;
+}
+
+
+.contact__ui .get_in_touch input:focus-visible,
+.contact__ui .get_in_touch textarea:focus-visible {
+    outline: none;
+}
+
+.contact__ui .get_in_touch input,
+.contact__ui .get_in_touch textarea {
+    width: 100%;
+    background-color: #111111c2;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-bottom: 1px solid #fff;
+    font-size: 20px;
+}
+
+.contact__ui .get_in_touch button {
+    background-color: #1111115c;
+    margin: 10px 0;
+    padding: 10px 50px;
+    color: #fff;
+    border: 1px solid yellowgreen;
+    transition: .3s;
+    font-size: 20px;
+}
+
+.contact__ui .get_in_touch button:hover {
+    background-color: #111111;
+}
+
+.contact__ui .user_info .contact_us ul {
+    list-style: none;
+    color: #fff;
+    background-color: #111111a9;
+    padding: 20px;
+    margin: 10px;
+}
+
+.contact__ui .user_info .contact_us ul li svg {
+    margin-right: 5px;
+    margin-top: 2px;
+    font-size: 20px;
+}
+
+.contact__ui .user_info .contact_us ul li {
+    display: flex;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 10px 0;
+    font-style: italic;
+}

@@ -1,0 +1,96 @@
+.main__area {
+    height: 100vh;
+    position: relative;
+    background-image: url(../../Assets/guitar_man_banar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__area::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.493);
+    height: 100%;
+    width: 100%;
+}
+
+
+.info__action__details {
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.info__action__details h2 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.info__action__details p {
+    width: 70%;
+    margin: 20px auto;
+    font-weight: 300;
+    color: gainsboro;
+}
+
+.action__group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action__group .get__started {
+    cursor: pointer;
+    position: relative;
+    background: transparent;
+    transition: .4s all ease;
+    color: white;
+    padding: 10px 40px 10px 10px;
+    font-size: 16px;
+    border: 1px solid yellow;
+}
+
+.action__group .get__started:hover {
+    background: black;
+}
+
+.action__group .get__started svg {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 10%;
+    transition: .3s;
+}
+
+.action__group .get__started:hover svg {
+    right: 0;
+}
+
+
+.action__group .download {
+    cursor: pointer;
+    display: flex;
+    border: none;
+    background: transparent;
+    transition: .3s;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.action__group .download:hover {
+    color: yellow;
+}
+
+.action__group svg {
+    font-size: 20px;
+    margin: 0 5px;
+}
