@@ -12,8 +12,8 @@ function GetInTouch() {
 
             <div className="contact__ui">
                 <div className="container">
-                    <div className="user_info">
-                        <div className="get_in_touch">
+                    <div className="row mt-5">
+                        <div className="col-md-6 get_in_touch">
                             <h2>Get In Touch</h2>
                             <form>
                                 <input type="text" placeholder='Enter Your Email' />
@@ -21,7 +21,7 @@ function GetInTouch() {
                                 <button type="submit">Submit</button>
                             </form>
                         </div>
-                        <div className="contact_us">
+                        <div className="col-md-6 contact_us">
                             <h2>Contact Info</h2>
                             <ul>
                                 <li><span>

@@ -78,7 +78,9 @@
 
 .pricing__item .action {
     position: absolute;
+    width: 100%;
     bottom: 20px;
+    text-align: center;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -94,4 +96,11 @@
 
 .pricing__item .action button:hover {
     background-color: black;
+}
+
+/* Responsive */
+@media (max-width:768px) {
+    .pricing__section__ui .heading_para {
+        width: 90%;
+    }
 }

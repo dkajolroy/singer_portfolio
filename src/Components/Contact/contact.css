@@ -20,21 +20,16 @@
     z-index: -1;
 }
 
-.contact__ui .user_info {
-    display: flex;
-    justify-content: space-between;
-}
-
-.contact__ui .user_info h2 {
+.contact__ui h2 {
     color: #fff;
     text-align: center;
     font-weight: 300;
     font-size: 30px;
 }
 
-.contact__ui .user_info .get_in_touch,
-.contact__ui .user_info .contact_us {
-    flex: 1;
+.contact__ui .get_in_touch,
+.contact__ui .contact_us {
+
     overflow: hidden;
 }
 
@@ -71,7 +66,7 @@
     background-color: #111111;
 }
 
-.contact__ui .user_info .contact_us ul {
+.contact__ui .contact_us ul {
     list-style: none;
     color: #fff;
     background-color: #111111a9;
@@ -79,16 +74,25 @@
     margin: 10px;
 }
 
-.contact__ui .user_info .contact_us ul li svg {
+.contact__ui .contact_us ul li svg {
     margin-right: 5px;
     margin-top: 2px;
     font-size: 20px;
 }
 
-.contact__ui .user_info .contact_us ul li {
+.contact__ui .contact_us ul li {
     display: flex;
     font-size: 18px;
     font-weight: 300;
     margin: 10px 0;
     font-style: italic;
 }
+
+/* Responsive */
+@media (max-width:992px) {
+    .contact__ui .get_in_touch button {
+        width: 100%;
+    }
+}
+
+@media (max-width:768) {}
