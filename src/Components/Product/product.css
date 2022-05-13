@@ -85,9 +85,8 @@
     font-size: 20px;
     text-decoration: none;
     padding: 10px;
-    display: block;
+    display: table;
     transform-origin: left;
-    display: flex;
     align-items: center;
     transition: .3s;
 }
@@ -96,7 +95,6 @@
     margin-right: 5px;
     font-size: 22px;
     margin-bottom: 5px;
-
 }
 
 .product__info_g li:hover a {

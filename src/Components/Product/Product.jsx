@@ -10,7 +10,7 @@ function Product() {
             <div className="divider"></div>
 
             <div className="info__action__prod">
-                <div className="content_prod">
+                <div className="content_prod container">
                     <div className="content__ui__prod">
                         <h3>Your Music Partner</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptate?</p>
