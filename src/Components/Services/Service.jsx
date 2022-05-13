@@ -7,7 +7,7 @@ function Service() {
     return (
         <div className='service__section__ui section' id="service">
             <div className="container" >
-                <h2 className='section__title' data-aos="fade-down">Service</h2>
+                <h2 className='section__title' >Service</h2>
                 <div className="divider"></div>
 
                 <div className="container">

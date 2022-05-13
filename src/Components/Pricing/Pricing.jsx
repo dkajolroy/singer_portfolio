@@ -7,7 +7,7 @@ function Pricing() {
     return (
         <div className='pricing__section__ui section' id='pricing'>
             <div className="container">
-                <h2 className="section__title" data-aos="fade-down">Pricing</h2>
+                <h2 className="section__title">Pricing</h2>
                 <div className="divider"></div>
                 <h5 data-aos="fade-up">Pick Your Best Option</h5>
                 <p data-aos="fade-up" className='heading_para'>Listen without limit phone, speaker or any device more suitable you</p>

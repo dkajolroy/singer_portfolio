@@ -7,7 +7,7 @@ import { FaRegAddressCard } from 'react-icons/fa'
 function GetInTouch() {
     return (
         <div className='contact__section__ui section' id='contact'>
-            <h2 className="section__title" data-aos="fade-down">contact</h2>
+            <h2 className="section__title" >contact</h2>
             <div className="divider"></div>
 
             <div className="contact__ui">

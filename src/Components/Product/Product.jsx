@@ -6,7 +6,7 @@ import { BsApple, BsSpotify, BsYoutube } from 'react-icons/bs'
 function Product() {
     return (
         <div className='product__section__ui section' id='product'>
-            <h2 className="section__title" data-aos="fade-down">Product</h2>
+            <h2 className="section__title" >Product</h2>
             <div className="divider"></div>
 
             <div className="info__action__prod">
@@ -20,7 +20,7 @@ function Product() {
                             <input type="email" placeholder='Enter Your Email' />
                             <button type="submit"> <span><ImYoutube /></span>Subscribe</button>
                         </div>
-                        <div data-aos="fade-left" className="col-sm-6">
+                        <div data-aos="fade-up" className="col-sm-6">
                             <ul>
                                 <li><a href="/" target="_blank">
                                     <span><BsYoutube /></span> Youtube</a></li>
