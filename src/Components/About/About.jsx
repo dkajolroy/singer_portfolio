@@ -8,11 +8,11 @@ function Testimonial() {
     return (
         <div className='about__section__ui section' id='about'>
             <div className="container">
-                <h2 className="section__title">About</h2>
+                <h2 className="section__title" data-aos="fade-down">About</h2>
                 <div className="divider"></div>
 
                 <div className="row about__info__ui">
-                    <div className="col-md-6 about_item">
+                    <div data-aos="fade-up" className="col-md-6 about_item">
                         <h4>Navar Stop Listening !!</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reiciendis sit mollitia tenetur suscipit maiores aliquam placeat inventore. Magni, impedit!</p>
                         <h4>What I do?</h4>

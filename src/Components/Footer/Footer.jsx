@@ -7,7 +7,7 @@ function Footer() {
 
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div data-aos="fade-up" className="col-lg-3 col-md-6 col-sm-6 col-6">
                         <ul>
                             <li>Home</li>
                             <li>Price</li>
@@ -16,7 +16,7 @@ function Footer() {
                             <li>About</li>
                         </ul>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div data-aos="fade-up" className="col-lg-3 col-md-6 col-sm-6 col-6">
 
                         <ul>
                             <li>Help</li>
@@ -25,7 +25,7 @@ function Footer() {
                             <li>To Go</li>
                         </ul>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div data-aos="fade-up" className="col-lg-3 col-md-6 col-sm-6 col-6">
 
                         <ul>
                             <li>Community</li>
@@ -35,7 +35,7 @@ function Footer() {
                             <li>Guideline</li>
                         </ul>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div data-aos="fade-up" className="col-lg-3 col-md-6 col-sm-6 col-6">
 
                         <ul>
                             <li>Next</li>

@@ -9,11 +9,11 @@ function Home() {
         <div className='main__area' id='home'>
 
             <div className="info__action__details">
-                <h2>Every Creative Music</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, soluta.</p>
+                <h2 data-aos="fade-up">Every Creative Music</h2>
+                <p data-aos="fade-down">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, soluta.</p>
                 <div className="action__group">
-                    <button className='get__started'>Get Started<IoIosArrowForward /></button>
-                    <button className='download'><MdSlowMotionVideo />Download</button>
+                    <button className='get__started' data-aos="fade-right">Get Started<IoIosArrowForward /></button>
+                    <button className='download' data-aos="fade-left"><MdSlowMotionVideo />Download</button>
                 </div>
             </div>
 
