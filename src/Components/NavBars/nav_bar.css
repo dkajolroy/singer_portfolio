@@ -29,6 +29,7 @@
 
 .nav_bar__main.active {
     background-color: black;
+    box-shadow: 0 0 6px -4px #fff;
 }
 
 .nav_bar__main ul {
